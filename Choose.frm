@@ -80,6 +80,10 @@ Private Sub Command2_Click()
 
 End Sub
 
+Private Sub btnCustomer_Click()
+Unload Me
+End Sub
+
 Private Sub btnSeller_Click()
 Form2.Show
 Unload Me

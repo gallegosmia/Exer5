@@ -9,8 +9,8 @@ Begin VB.Form Form2
    ClientTop       =   465
    ClientWidth     =   9345
    LinkTopic       =   "Form2"
-   ScaleHeight     =   9105
-   ScaleWidth      =   9345
+   ScaleHeight     =   12915
+   ScaleWidth      =   23760
    StartUpPosition =   3  'Windows Default
    Begin VB.OptionButton Optionno 
       Caption         =   "NO"
@@ -178,7 +178,7 @@ Begin VB.Form Form2
          _ExtentX        =   7223
          _ExtentY        =   873
          _Version        =   393216
-         Format          =   114556929
+         Format          =   109772801
          CurrentDate     =   45934
       End
       Begin VB.Label Label6 
@@ -301,7 +301,7 @@ Option Explicit
 
 Private Sub btnAdd_Click()
 
-    On Error GoTo btnAdd_Click_Err
+    On Error GoTo btnAdd_Click_Err1
 
 100     If btnAdd.Caption = "Add" Then
 102         btnAdd.Caption = "Save"
